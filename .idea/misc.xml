@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/drawable/ic_sad.xml" value="0.3609375" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/activity_edit_info.xml" value="0.34479166666666666" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/activity_log.xml" value="0.34479166666666666" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/activity_login.xml" value="0.34479166666666666" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/activity_viewbutton.xml" value="0.34479166666666666" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/fragment_add_calories.xml" value="0.34479166666666666" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/fragment_food_joke.xml" value="0.34479166666666666" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/fragment_grocery.xml" value="0.34479166666666666" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/fragment_recipes.xml" value="0.34479166666666666" />
+        <entry key="..\:/AllNodeProjects/new/Food-Masters-dont-touch/app/src/main/res/layout/fragment_weight_add.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/drawable/gradient_overlay.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/drawable/search_bar.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/activity_details.xml" value="0.3625" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/activity_main.xml" value="0.2574074074074074" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/activity_welcome.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/fragment_fullscreen.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/fragment_ingredients.xml" value="0.3625" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/fragment_instructions.xml" value="0.3625" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/fragment_overview.xml" value="0.25" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/fragment_search.xml" value="0.17" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/ingredients_row_layout.xml" value="0.4" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/layout/recipes_row_layout.xml" value="0.513840830449827" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/Android Studio/foodapp/app/src/main/res/menu/recipes_menu.xml" value="0.18" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/drawable/custom_button.xml" value="0.21296296296296297" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/activity_add_button.xml" value="0.15760869565217392" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/activity_login.xml" value="0.2546875" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/activity_main.xml" value="0.15760869565217392" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/activity_register.xml" value="0.2546875" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/activity_viewbutton.xml" value="0.2128623188405797" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/favorite_recipes_row_layout.xml" value="0.10131712259371833" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/fragment_add_calories.xml" value="0.15760869565217392" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/fragment_calories.xml" value="0.15760869565217392" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/fragment_grocery.xml" value="0.2128623188405797" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/layout/fragment_weight_add.xml" value="0.2128623188405797" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2546875" />
+        <entry key="..\:/Android/sedra/Food-Masters-dont-touch/app/src/main/res/menu/favorite_recipes_menu.xml" value="0.2546875" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/drawable/button.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/drawable/button2.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/drawable/button3.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/layout/activity_welcome.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/layout/favorite_recipes_row_layout.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/layout/fragment_recipes.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/layout/main_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sayed Khsraw Sadat/Desktop/Food-Masters/app/src/main/res/layout/recipes_row_layout.xml" value="0.10461956521739131" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/drawable/custom_button.xml" value="0.21822916666666667" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21822916666666667" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.21822916666666667" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/activity_add_button.xml" value="0.20208333333333334" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/activity_main.xml" value="0.18854166666666666" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/activity_welcome.xml" value="0.33" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/favorite_recipes_row_layout.xml" value="0.33" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/fragment_favorite_recipes.xml" value="0.34479166666666666" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/fragment_grocery.xml" value="0.33" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/fragment_recipes.xml" value="0.34479166666666666" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/groceryitem.xml" value="0.18854166666666666" />
+        <entry key="..\:/dumbcommits/Food-Masters/app/src/main/res/layout/recipes_row_layout.xml" value="0.34479166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

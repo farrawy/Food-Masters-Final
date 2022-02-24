@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/recipesFragment">
+
+    <fragment
+        android:id="@+id/recipesFragment"
+        android:name="com.example.foody.ui.fragments.recipes.RecipesFragment"
+        android:label="Recipes"
+        tools:layout="@layout/fragment_recipes" >
+        <action
+            android:id="@+id/action_recipesFragment_to_recipesBottomSheet"
+            app:destination="@id/recipesBottomSheet" />
+        <argument
+            android:name="backFromBottomSheet"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_recipesFragment_to_detailsActivity"
+            app:destination="@id/detailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteRecipesFragment"
+        android:name="com.example.foody.ui.fragments.favorites.FavoriteRecipesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorite_recipes" >
+        <action
+            android:id="@+id/action_favoriteRecipesFragment_to_detailsActivity"
+            app:destination="@id/detailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodJokeFragment"
+        android:name="com.example.foody.ui.fragments.foodjoke.FoodJokeFragment"
+        android:label="Food Joke"
+        tools:layout="@layout/fragment_food_joke" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.foody.ui.fragments.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_addCaloriesFragment"
+            app:destination="@id/addCaloriesFragment" >
+        </action>
+        <action
+            android:id="@+id/action_profileFragment_to_weightAddFragment"
+            app:destination="@id/weightAddFragment" >
+        </action>
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/groceryFragment"
+        android:name="com.example.foody.ui.fragments.grocery.GroceryFragment"
+        android:label="Grocery List"
+        tools:layout="@layout/fragment_grocery" />
+    <dialog
+        android:id="@+id/recipesBottomSheet"
+        android:name="com.example.foody.ui.fragments.recipes.bottomsheet.RecipesBottomSheet"
+        android:label="recipes_bottom_sheet"
+        tools:layout="@layout/recipes_bottom_sheet" >
+        <action
+            android:id="@+id/action_recipesBottomSheet_to_recipesFragment"
+            app:destination="@id/recipesFragment"
+            app:popUpTo="@id/recipesFragment"
+            app:popUpToInclusive="true" />
+    </dialog>
+    <activity
+        android:id="@+id/detailsActivity"
+        android:name="com.example.foody.ui.DetailsActivity"
+        android:label="Details"
+        tools:layout="@layout/activity_details" >
+        <argument
+            android:name="result"
+            app:argType="com.example.foody.models.Result" />
+    </activity>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.foody.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/addCaloriesFragment"
+        android:name="com.example.foody.ui.fragments.profile.AddCaloriesFragment"
+        android:label="Calories Consumed"
+        tools:layout="@layout/fragment_add_calories">
+        <action
+            android:id="@+id/action_addCaloriesFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/weightAddFragment"
+        android:name="com.example.foody.ui.fragments.profile.WeightAddFragment"
+        android:label="Weight in Kg"
+        tools:layout="@layout/fragment_weight_add">
+        <action
+            android:id="@+id/action_weightAddFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+</navigation>

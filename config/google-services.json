@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "886917637181",
+    "project_id": "foodmasters-recipeapp",
+    "storage_bucket": "foodmasters-recipeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886917637181:android:d179d52378e050ea49f654",
+        "android_client_info": {
+          "package_name": "com.example.foody"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886917637181-15hgq7lm2k6659r1ivsoqggcljslsr61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrE0lxfTH_WXPACaiML2bMlG5Mug27Nx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886917637181-15hgq7lm2k6659r1ivsoqggcljslsr61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

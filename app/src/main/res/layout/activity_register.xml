@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.ActivitiesPackage.Register.RegisterActivity">
+
+
+  <View
+      android:id="@+id/view"
+      android:layout_width="350dp"
+      android:layout_height="650dp"
+      android:background="@drawable/login_signup_bg"
+      android:clickable="false"
+      android:focusable="auto"
+      android:visibility="visible"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.442"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.493"
+      tools:visibility="visible" />
+
+  <EditText
+      android:id="@+id/Name_register"
+      android:layout_width="301dp"
+      android:layout_height="44dp"
+      android:layout_marginTop="50dp"
+      android:ems="15"
+      android:textColorHint="@color/mediumGray"
+      android:hint="Name"
+      android:inputType="textEmailAddress"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="@+id/signup_button_signup"
+      app:layout_constraintHorizontal_bias="0.396"
+      app:layout_constraintStart_toStartOf="@+id/login_button_signup"
+      app:layout_constraintTop_toBottomOf="@+id/signup_button_signup" />
+
+  <EditText
+      android:id="@+id/email_register"
+      android:layout_width="301dp"
+      android:layout_height="44dp"
+      android:layout_marginTop="25dp"
+      android:ems="15"
+      android:hint="Email"
+      android:inputType="textEmailAddress"
+      android:textColorHint="@color/mediumGray"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="@+id/Name_register"
+      app:layout_constraintStart_toStartOf="@+id/Name_register"
+      app:layout_constraintTop_toBottomOf="@+id/Name_register" />
+
+  <EditText
+      android:id="@+id/password_register"
+      android:layout_width="301dp"
+      android:layout_height="44dp"
+      android:layout_marginTop="25dp"
+      android:ems="15"
+      android:hint="Password"
+      android:inputType="textPassword"
+      android:textColorHint="@color/mediumGray"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="@+id/email_register"
+      app:layout_constraintStart_toStartOf="@+id/email_register"
+      app:layout_constraintTop_toBottomOf="@+id/email_register" />
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="Already a member? "
+      android:textColor="@color/lightGray"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="@+id/signup_button"
+      app:layout_constraintHorizontal_bias="0.608"
+      app:layout_constraintStart_toStartOf="@+id/signup_button"
+      app:layout_constraintTop_toBottomOf="@+id/signup_button" />
+
+  <TextView
+      android:id="@+id/register_login_textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:text="Login"
+      android:textColor="@color/colorPrimaryDark"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="@+id/signup_button"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/textView8"
+      app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/google_image"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_marginStart="100dp"
+      android:src="@drawable/googleplus"
+      app:layout_constraintBottom_toBottomOf="@+id/facebook_image"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/facebook_image" />
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/facebook_image"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_marginStart="24dp"
+      android:layout_marginTop="15dp"
+      android:layout_marginEnd="24dp"
+      android:src="@drawable/facebook"
+      app:layout_constraintEnd_toStartOf="@+id/twitter_image"
+      app:layout_constraintHorizontal_bias="0.529"
+      app:layout_constraintStart_toEndOf="@+id/google_image"
+      app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/twitter_image"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_marginEnd="100dp"
+      android:src="@drawable/twitter"
+      app:layout_constraintBottom_toBottomOf="@+id/facebook_image"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/facebook_image"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+      android:id="@+id/textView9"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:text="OR"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView8"
+      tools:ignore="TextContrastCheck" />
+
+
+  <Button
+      android:id="@+id/login_button_signup"
+      android:layout_width="155dp"
+      android:layout_height="56dp"
+
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="50dp"
+      android:background="@drawable/button"
+      android:text="Login"
+      android:textColor="@color/black"
+      android:textColorLink="@color/material_on_background_emphasis_high_type"
+      app:backgroundTint="@color/white"
+      app:iconTint="@color/material_on_background_emphasis_high_type"
+      app:layout_constraintBottom_toTopOf="@+id/Name_register"
+      app:layout_constraintStart_toStartOf="@+id/view"
+      app:layout_constraintTop_toTopOf="@+id/view"
+      app:layout_constraintVertical_bias="0.279" />
+
+  <Button
+      android:id="@+id/signup_button_signup"
+      android:layout_width="161dp"
+      android:layout_height="58dp"
+      android:layout_marginTop="68dp"
+      android:layout_marginEnd="44dp"
+      android:background="@drawable/button"
+      android:text="Sign up"
+      android:textColor="@color/ChipBackgroundColor"
+      app:backgroundTint="@color/green"
+      app:layout_constraintEnd_toEndOf="@+id/view"
+      app:layout_constraintTop_toTopOf="@+id/view" />
+
+  <Button
+      android:id="@+id/signup_button"
+      android:layout_width="0dp"
+      android:layout_height="55dp"
+      android:layout_marginTop="50dp"
+      android:background="@drawable/button"
+      android:text="Sign Up"
+      android:textColor="@color/white"
+      app:layout_constraintEnd_toEndOf="@+id/password_register"
+      app:layout_constraintStart_toStartOf="@+id/password_register"
+      app:layout_constraintTop_toBottomOf="@+id/password_register" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
